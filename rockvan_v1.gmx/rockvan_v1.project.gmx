@@ -5,12 +5,26 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp_boton_jugar</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_1</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\sc_boton_jugar_leftReleased.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\ob_boton_jugar</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_title</room>
+    <room>rooms\rm_level1</room>
+  </rooms>
   <constants number="2">
-    <constant name="GM_build_date">0</constant>
-    <constant name="GM_version">0</constant>
+    <constant name="GM_build_date">41958.7994612732</constant>
+    <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

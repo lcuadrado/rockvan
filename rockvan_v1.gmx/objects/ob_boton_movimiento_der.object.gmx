@@ -19,7 +19,7 @@
         <exetype>1</exetype>
         <functionname>action_execute_script</functionname>
         <codestring></codestring>
-        <whoName>ob_boton_movimiento_der</whoName>
+        <whoName>ob_player</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>

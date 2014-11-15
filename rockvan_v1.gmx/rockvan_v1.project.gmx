@@ -11,6 +11,7 @@
     <sprite>sprites\ph_margenAn</sprite>
     <sprite>sprites\ph_margenSup</sprite>
     <sprite>sprites\ph_margenInf</sprite>
+    <sprite>sprites\sp_boton_movimiento</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -20,6 +21,8 @@
   <scripts name="scripts">
     <script>scripts\sc_boton_jugar_leftReleased.gml</script>
     <script>scripts\sc_level.gml</script>
+    <script>scripts\sc_player_movimiento.gml</script>
+    <script>scripts\sc_player.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\ob_boton_jugar</object>
@@ -28,13 +31,15 @@
     <object>objects\ob_ph_margenAn</object>
     <object>objects\ob_ph_margenSup</object>
     <object>objects\ob_ph_margenInf</object>
+    <object>objects\ob_boton_movimiento_izq</object>
+    <object>objects\ob_boton_movimiento_der</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
     <room>rooms\rm_level1</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41958.8631809259</constant>
+    <constant name="GM_build_date">41958.9653421991</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>

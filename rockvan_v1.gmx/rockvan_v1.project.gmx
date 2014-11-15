@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sp_boton_jugar</sprite>
+    <sprite>sprites\sp_player</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -15,16 +16,19 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\sc_boton_jugar_leftReleased.gml</script>
+    <script>scripts\sc_level.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\ob_boton_jugar</object>
+    <object>objects\ob_level</object>
+    <object>objects\ob_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
     <room>rooms\rm_level1</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41958.8054507523</constant>
+    <constant name="GM_build_date">41958.8322672685</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>

@@ -3,8 +3,8 @@
   <caption></caption>
   <width>480</width>
   <height>768</height>
-  <vsnap>48</vsnap>
-  <hsnap>48</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>40</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -52,6 +52,10 @@
   </views>
   <instances>
     <instance objName="ob_level" x="0" y="0" name="inst_20D10224" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ob_ph_margenAn" x="0" y="0" name="inst_6A3C2903" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ob_ph_margenAn" x="400" y="0" name="inst_A186D7BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ob_ph_margenSup" x="0" y="0" name="inst_428E819F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ob_ph_margenInf" x="0" y="668" name="inst_6F465FAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

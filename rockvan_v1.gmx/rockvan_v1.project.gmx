@@ -10,6 +10,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
+    <background>background\bg_2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -23,7 +24,7 @@
     <room>rooms\rm_level1</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41958.7994612732</constant>
+    <constant name="GM_build_date">41958.8054507523</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>

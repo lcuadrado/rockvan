@@ -12,6 +12,11 @@ anPista = lCol2 / 5
 
 //Definicion y declaracion de globales
 
+global.lCol1 = lCol1
+global.lCol2 = lCol2
+
+global.lRow1 = lRow1
+
 global.anPista = anPista
 
 //Definicion y declaracion de objetos

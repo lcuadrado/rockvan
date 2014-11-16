@@ -8,7 +8,6 @@
   <sprites name="sprites">
     <sprite>sprites\sp_boton_jugar</sprite>
     <sprite>sprites\sp_player</sprite>
-    <sprite>sprites\ph_margenAn</sprite>
     <sprite>sprites\ph_margenSup</sprite>
     <sprite>sprites\ph_margenInf</sprite>
     <sprite>sprites\sp_boton_movimiento</sprite>
@@ -28,7 +27,6 @@
     <object>objects\ob_boton_jugar</object>
     <object>objects\ob_level</object>
     <object>objects\ob_player</object>
-    <object>objects\ob_ph_margenAn</object>
     <object>objects\ob_ph_margenSup</object>
     <object>objects\ob_ph_margenInf</object>
     <object>objects\ob_boton_movimiento_izq</object>
@@ -39,7 +37,7 @@
     <room>rooms\rm_level1</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41959.792448044</constant>
+    <constant name="GM_build_date">41959.8046083912</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>

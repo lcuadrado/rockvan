@@ -25,3 +25,6 @@ t_lRow12 = lRow1 + lRow2
 instance_create(bWidth/2,t_lRow12,ob_boton_movimiento_izq)
 instance_create(room_width-(bWidth*1.5),t_lRow12,ob_boton_movimiento_der)
 */
+
+//crear autos enemigos
+script_execute(sc_level_a0)

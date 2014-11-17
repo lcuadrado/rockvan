@@ -6,4 +6,4 @@ show_debug_message("Enemigo: " + string(enemX) + ", " + string(enemY))
 
 instance_create(enemX, enemY, ob_enem_auto1)
 
-alarm[0] = 30
+alarm[0] = 10

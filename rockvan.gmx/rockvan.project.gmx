@@ -8,10 +8,10 @@
   <sprites name="sprites">
     <sprite>sprites\sp_boton_jugar</sprite>
     <sprite>sprites\sp_player</sprite>
-    <sprite>sprites\ph_margenAn</sprite>
     <sprite>sprites\ph_margenSup</sprite>
     <sprite>sprites\ph_margenInf</sprite>
     <sprite>sprites\sp_boton_movimiento</sprite>
+    <sprite>sprites\sp_enem_auto1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -20,26 +20,46 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\sc_boton_jugar_leftReleased.gml</script>
-    <script>scripts\sc_level.gml</script>
-    <script>scripts\sc_player_movimiento.gml</script>
-    <script>scripts\sc_player.gml</script>
+    <scripts name="level">
+      <script>scripts\sc_level.gml</script>
+      <script>scripts\sc_level_a0.gml</script>
+      <script>scripts\sc_level_step.gml</script>
+    </scripts>
+    <scripts name="player">
+      <script>scripts\sc_player.gml</script>
+      <script>scripts\sc_player_movimiento.gml</script>
+      <script>scripts\sc_player_colisionEnem.gml</script>
+    </scripts>
+    <scripts name="enem">
+      <script>scripts\sc_enem_auto.gml</script>
+      <script>scripts\sc_enem_outsideRoom.gml</script>
+      <script>scripts\sc_enem_destroy.gml</script>
+    </scripts>
+    <scripts name="hud">
+      <script>scripts\sc_hud.gml</script>
+      <script>scripts\sc_hud_drawGui.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\ob_boton_jugar</object>
     <object>objects\ob_level</object>
     <object>objects\ob_player</object>
-    <object>objects\ob_ph_margenAn</object>
     <object>objects\ob_ph_margenSup</object>
     <object>objects\ob_ph_margenInf</object>
     <object>objects\ob_boton_movimiento_izq</object>
     <object>objects\ob_boton_movimiento_der</object>
+    <object>objects\ob_hud</object>
+    <objects name="enem">
+      <object>objects\ob_enem</object>
+      <object>objects\ob_enem_auto1</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
     <room>rooms\rm_level1</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41959.792448044</constant>
+    <constant name="GM_build_date">41960.0390673148</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>

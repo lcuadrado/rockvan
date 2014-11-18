@@ -12,6 +12,7 @@
     <sprite>sprites\ph_margenInf</sprite>
     <sprite>sprites\sp_boton_movimiento</sprite>
     <sprite>sprites\sp_enem_auto1</sprite>
+    <sprite>sprites\sp_persona</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -24,11 +25,13 @@
       <script>scripts\sc_level.gml</script>
       <script>scripts\sc_level_a0.gml</script>
       <script>scripts\sc_level_step.gml</script>
+      <script>scripts\sc_level_a1.gml</script>
     </scripts>
     <scripts name="player">
       <script>scripts\sc_player.gml</script>
       <script>scripts\sc_player_movimiento.gml</script>
       <script>scripts\sc_player_colisionEnem.gml</script>
+      <script>scripts\sc_player_colisionPersona.gml</script>
     </scripts>
     <scripts name="enem">
       <script>scripts\sc_enem_auto.gml</script>
@@ -39,6 +42,9 @@
       <script>scripts\sc_hud.gml</script>
       <script>scripts\sc_hud_drawGui.gml</script>
     </scripts>
+    <script>scripts\sc_persona.gml</script>
+    <script>scripts\sc_persona_destroy.gml</script>
+    <script>scripts\sc_persona_outsideRoom.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\ob_boton_jugar</object>
@@ -53,14 +59,15 @@
       <object>objects\ob_enem</object>
       <object>objects\ob_enem_auto1</object>
     </objects>
+    <object>objects\ob_persona</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title</room>
     <room>rooms\rm_level1</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41960.0390673148</constant>
-    <constant name="GM_version">'1.0.0.0'</constant>
+    <constant name="GM_build_date">41961.1582703819</constant>
+    <constant name="GM_version">'100'</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

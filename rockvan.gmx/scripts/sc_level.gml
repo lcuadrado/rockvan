@@ -19,6 +19,26 @@ global.lRow1 = lRow1
 
 global.anPista = anPista
 
+//Definicion de los contadores de elementos coleccionados
+//La cantidad de eleemntos a coleccionar para terminar el nivel. 
+//Si el nivel aumenta, la cantidad de objetos a coleccionar debiera aumentar
+global.guitarras = 1
+global.bajos = 1
+global.microfonos = 1
+global.baterias = 1
+//los items que se toman
+global.guitarras_taken = 0
+global.bajos_taken = 0
+global.microfonos_taken = 0
+global.baterias_taken = 0
+
+
+global.guitarras_ready = false
+global.bajos_ready = false
+global.microfonos_ready = false
+global.baterias_ready = false
+
+
 //Definicion y declaracion de objetos
 
 //instance_create(lCol1 + (anPista * 2) + (anPista / 2), lRow1 + ( lRow2 * 0.8 ) , ob_player)
@@ -36,3 +56,8 @@ script_execute(sc_level_a0)
 
 //ejecutar script de alarma 1: crear personas, etc.
 script_execute(sc_level_a1)
+
+//ejecutar script de alarma 2: crear items instrumentos, etc.
+script_execute(sc_level_a2)
+
+

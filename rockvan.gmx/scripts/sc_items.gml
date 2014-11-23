@@ -1,1 +1,1 @@
-move_towards_point(x, 800, 5)
+move_towards_point(x, 800, 15)

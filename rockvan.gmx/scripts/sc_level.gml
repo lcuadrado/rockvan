@@ -60,6 +60,10 @@ instance_create(bWidth/2,t_lRow12,ob_boton_movimiento_izq)
 instance_create(room_width-(bWidth*1.5),t_lRow12,ob_boton_movimiento_der)
 */
 
+//Iniciamos Audio
+audio_play_sound(music_level_1, 10, true);
+
+
 //ejecutar script de alarma 0: crear autos enemigos, etc.
 script_execute(sc_level_a0)
 

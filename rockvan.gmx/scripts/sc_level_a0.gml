@@ -1,5 +1,6 @@
 //crear autos enemigos
 
+
 posIdx = floor(random(global.nPistas))
 enemX = global.lCol1 + global.posiciones[posIdx]
 

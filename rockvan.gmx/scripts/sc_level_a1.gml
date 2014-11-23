@@ -1,5 +1,6 @@
 //crear personas
-enemX = global.lCol1 + random(global.lCol2)
+posIdx = floor(random(global.nPistas))
+enemX = global.lCol1 + global.posiciones[posIdx]
 enemY = global.lRow1
 
 show_debug_message("Persona: " + string(enemX) + ", " + string(enemY))

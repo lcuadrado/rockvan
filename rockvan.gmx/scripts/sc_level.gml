@@ -8,8 +8,17 @@ lRow2 = 600
 lRow3 = 100
 alLayout = lRow1 + lRow2 + lRow3 //768
 
-anPista = lCol2 / 5
+global.nPistas = 5
 
+anPista = lCol2 / global.nPistas
+
+//Posiciones predeterminadas 
+
+global.posiciones[0] = anPista/2
+global.posiciones[1] = global.posiciones[0] + anPista
+global.posiciones[2] = global.posiciones[1] + anPista
+global.posiciones[3] = global.posiciones[2] + anPista
+global.posiciones[4] = global.posiciones[3] + anPista
 //Definicion y declaracion de globales
 
 global.lCol1 = lCol1
@@ -59,4 +68,3 @@ script_execute(sc_level_a1)
 
 //ejecutar script de alarma 2: crear items instrumentos, etc.
 script_execute(sc_level_a2)
-

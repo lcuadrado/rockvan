@@ -60,4 +60,3 @@ script_execute(sc_level_a1)
 //ejecutar script de alarma 2: crear items instrumentos, etc.
 script_execute(sc_level_a2)
 
-

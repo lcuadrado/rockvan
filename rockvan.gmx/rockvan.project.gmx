@@ -37,6 +37,7 @@
       <script>scripts\sc_player_movimiento.gml</script>
       <script>scripts\sc_player_colisionEnem.gml</script>
       <script>scripts\sc_player_colisionPersona.gml</script>
+      <script>scripts\sc_player_colisionItem.gml</script>
     </scripts>
     <scripts name="enem">
       <script>scripts\sc_enem_auto.gml</script>

@@ -1,4 +1,13 @@
 //Creamos la aparicion de Items 
+
+alarma =  150 - random(30)
+
+if(global.start_items == false){
+    alarm[2] = alarma
+    exit
+}
+
+
 posIdx = floor(random(global.nPistas))
 enemX = global.lCol1 + global.posiciones[posIdx]
 enemY = global.lRow1
@@ -60,4 +69,4 @@ while(!generado_valido){
 
 
 
-alarm[2] = 150 - random(30) // entre 150 y 120 aparecen
+alarm[2] = alarma //150 - random(30) // entre 150 y 120 aparecen

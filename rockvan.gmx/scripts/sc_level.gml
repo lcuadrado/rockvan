@@ -7,8 +7,16 @@ lRow1 = 68
 lRow2 = 600
 lRow3 = 100
 alLayout = lRow1 + lRow2 + lRow3 //768
-
+background_vspeed[0] = 0;
 global.nPistas = 5
+
+//max velocidad
+global.maxVelocidad = 25
+global.start_enemies = false
+global.start_groupies = false
+global.start_items = false
+global.start_cops = false
+
 
 anPista = lCol2 / global.nPistas
 

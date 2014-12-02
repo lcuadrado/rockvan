@@ -24,6 +24,7 @@
     <background>background\bg_1</background>
     <background>background\bg_2</background>
     <background>background\bg_deb_road</background>
+    <background>background\bg_van_title</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
